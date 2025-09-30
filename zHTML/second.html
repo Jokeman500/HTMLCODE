@@ -8,19 +8,101 @@
 </head>
 
 <body>
-    <p>adw</p>
-    <p>afea</p>
-    //写出6种不同的标题
+    <h2>网页结构标签</h2>
+    <header>
 
-   <strong><em>标题1</em><h1>标题1</h1></strong>  
-    <em><h2>标题2</h2></em>
-    <ins><h3>标题3</h3></ins>
-    <del><h4>标题4</h4></del>
-    <h5>标题5</h5>
-    <h6>标题6</h6>
-    <p>ni好</p>
-    <div>ni好</div>
-<!-- 隐藏内容 -->
+    </header>
+    <span>网页头部标签</span>
+    </header>
+    <nav>网页导航标签</nav>
+    <main>
+
+        <aside>网页侧边栏标签</aside>
+        <article>网页文章标签</article>
+    </main>
+    <footer>网页底部标签</footer>
+    <h2>网页导航标签</h2>
+    <ol>
+        <li>网页一</li>
+        <li>网页二</li>
+        <li>网页三</li>
+    </ol>
+    写一个描述列表
+    <dl>
+        <dt>网页一</dt>
+        <dd>网页一的描述</dd>
+        <dd>网页一的详细描述</dd>
+        <dd>网页一的详细描述</dd>
+        <dt>网页二</dt>
+        <dd><img src="../image/1.png" width="800"></img></dd>
+        <dt>网页三</dt>
+        <dd>网页三的描述</dd>
+    </dl>
+    <table border="2">
+        <tr>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>年龄</th>
+            <th>地址</th>
+            <th>电话</th>
+        </tr>
+        <tr>
+            <td>张三</td>
+            <td>男</td>
+            <td colspan="2">18</td>
+            <td rowspan="4"></td>
+        </tr>
+        <tr>
+            <td>李四</td>
+            <td>女</td>
+            <td></td>
+            <td>北京市海淀区</td>
+        </tr>
+        <tr>
+            <td>王五</td>
+            <td>男</td>
+            <td>20</td>
+            <td rowspan="2">北京市东城区</td>
+        </tr>
+        <tr>
+            <td>赵六</td>
+            <td>女</td>
+            <td>21</td>
+        </tr>
+    </table>
+    <form action="">
+        <input type="text" name="name" placeholder="姓名" accesskey="s">
+        <input type="password" name="password" placeholder="密码">
+        </input>
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+        <input type="checkbox" name="checkbox" value="1"></input>
+        多给几个复选框
+        <input type="checkbox" name="checkbox" value="2"></input>
+        <input type="checkbox" name="checkbox" value="3"></input>
+        <input type="radio" name="radio" value="1"></input>
+        <select name="select" id="">
+            <option value="1">选项一</option>
+            <option value="2">选项二</option>
+            <option value="3">选项三</option>
+        </select>
+        <ul>
+            <li><input type="radio" id="321" name="radio" value="1"><label for="321">辅助标签label</label></input>
+                <input type="radio" name="radio" value="1"></input>
+            </li>
+            <li><input type="file" name="radio" multiple accept=".jpg,.png"></input>   
+            </li>
+        </ul>
+        //写几个复选框
+        <input type="checkbox" name="checkbox" value="1"></input>
+        <input type="checkbox" name="checkx" value="2"></input>
+        <input type="checkbox" name="chex" value="3"></input>
+        <label >文件上传<input type="radio" name="sex"></label>
+    </form>
+    <textarea name="textarea" id="" cols="10" rows="10" placeholder="文本域"></textarea>
+
+
+
 </body>
 
 </html>
